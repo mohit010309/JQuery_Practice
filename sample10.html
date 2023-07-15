@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample-10</title>
+    <style>
+        h1 
+        {
+            text-align:center;
+            font-size:4rem;
+        }
+        .container 
+        {
+            display:grid;
+            grid-template-rows:300px 300px;
+            grid-template-columns:300px 300px;
+            gap:30px;
+        }
+        .red
+        {
+            background-color:red;
+        }
+        .blue
+        {
+            background-color:blue;
+        }
+        .green
+        {
+            background-color:green;
+        }
+        .yellow
+        {
+            background-color:yellow;
+        }
+        .upper-cont
+        {
+            display:flex;
+            justify-content:center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Press any key to continue</h1>
+    <div class="upper-cont">
+        <div class="container">
+            <div id="red" class="btn red"></div>
+            <div id="blue" class="btn blue"></div>
+            <div id="green" class="btn green"></div>
+            <div id="yellow" class="btn yellow"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="script10.js"></script>
+</body>
+</html>l

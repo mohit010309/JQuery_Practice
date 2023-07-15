@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample-2</title>
+</head>
+<body>
+    <h1>This is heading</h1>
+    <button type="button">Click 1</button>
+    <button type="button">Click 2</button>
+    <button type="button">Click 3</button>
+    <script>
+        var ob=document.querySelectorAll("button");
+        for(var i=0;i<ob.length;i++)
+        {
+            ob[i].addEventListener("click",function(){
+                document.querySelector("h1").style.color="red";
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.big-title
+{
+    font-family:cursive;
+    font-size:2rem;
+    font-weight:bold;
+    color:blue;
+}
+.newclass2
+{
+    background-color:yellow;
+    
+}
+.newclass3
+{
+    border:5px solid red;
+}
